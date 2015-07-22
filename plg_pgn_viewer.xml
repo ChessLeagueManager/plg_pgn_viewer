@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" method="upgrade" type="plugin" group="content">
+	<name>plg_pgn_viewer</name>
+	<author>T Römer / F Schäfer</author>
+	<creationDate>2006 - 2015</creationDate>
+	<copyright>(C) 2015 Toomas Römer</copyright>
+	<license>APL http://www.apache.org/licenses/LICENSE-2.0</license>
+	<authorUrl>http://pgnview.edicypages.com</authorUrl>
+	<version>0.9</version>
+	<description>Dieses Plugin erlaubt es PGN Dateien, über ein interactives Brett, direkt in deinen Beiträgen auszugeben. Dafür muss die PGN, ohne jede Änderung, innerhalb von {pgn} und {end-pgn} eingefügt werden. Das interaktive Brett ist unter der Apache-Lizenz 2.0 von Toomas Römer ( http://pgnview.edicypages.com ) veröffentlicht worden. Achtung: Das Plugin muss nach der Installation manuell aktiviert werden.</description>   	
+
+  <files>
+    <filename plugin="plg_pgn_viewer">plg_pgn_viewer.php</filename>
+    <filename>js/jsPgnViewer.js</filename>
+    <filename>License.txt</filename>
+    <filename>README.txt</filename>
+    <filename>img/zurich/bBishop.gif</filename>
+    <filename>img/zurich/bKing.gif</filename>
+    <filename>img/zurich/bKnight.gif</filename>
+    <filename>img/zurich/bPawn.gif</filename>
+    <filename>img/zurich/bQueen.gif</filename>
+    <filename>img/zurich/bRook.gif</filename>
+    <filename>img/zurich/wBishop.gif</filename>
+    <filename>img/zurich/wKing.gif</filename>
+    <filename>img/zurich/wKnight.gif</filename>
+    <filename>img/zurich/wPawn.gif</filename>
+    <filename>img/zurich/wQueen.gif</filename>
+    <filename>img/zurich/wRook.gif</filename>
+    <filename>img/zurich/buttons/back.gif</filename>
+    <filename>img/zurich/buttons/comments.gif</filename>
+    <filename>img/zurich/buttons/ffward.gif</filename>
+    <filename>img/zurich/buttons/flip.gif</filename>
+    <filename>img/zurich/buttons/forward.gif</filename>
+    <filename>img/zurich/buttons/rwind.gif</filename>
+    <filename>img/zurich/buttons/toggle.gif</filename>
+    <filename>img/zurich/board/darksquare.gif</filename>
+    <filename>img/zurich/board/lightsquare.gif</filename>
+    <filename>img/zurich/readme.txt</filename>
+    <filename>img/png/bBishop.gif</filename>
+    <filename>img/png/bKing.gif</filename>
+    <filename>img/png/bKnight.gif</filename>
+    <filename>img/png/bPawn.gif</filename>
+    <filename>img/png/bQueen.gif</filename>
+    <filename>img/png/bRook.gif</filename>
+    <filename>img/png/wBishop.gif</filename>
+    <filename>img/png/wKing.gif</filename>
+    <filename>img/png/wKnight.gif</filename>
+    <filename>img/png/wPawn.gif</filename>
+    <filename>img/png/wQueen.gif</filename>
+    <filename>img/png/wRook.gif</filename>
+    <filename>img/png/buttons/back.gif</filename>
+    <filename>img/png/buttons/comments.gif</filename>
+    <filename>img/png/buttons/ffward.gif</filename>
+    <filename>img/png/buttons/flip.gif</filename>
+    <filename>img/png/buttons/forward.gif</filename>
+    <filename>img/png/buttons/rwind.gif</filename>
+    <filename>img/png/buttons/toggle.gif</filename>
+    <filename>img/png/readme.txt</filename>
+    <filename>img/default/bBishop.gif</filename>
+    <filename>img/default/bKing.gif</filename>
+    <filename>img/default/bKnight.gif</filename>
+    <filename>img/default/bPawn.gif</filename>
+    <filename>img/default/bQueen.gif</filename>
+    <filename>img/default/bRook.gif</filename>
+    <filename>img/default/wBishop.gif</filename>
+    <filename>img/default/wKing.gif</filename>
+    <filename>img/default/wKnight.gif</filename>
+    <filename>img/default/wPawn.gif</filename>
+    <filename>img/default/wQueen.gif</filename>
+    <filename>img/default/wRook.gif</filename>
+    <filename>img/default/buttons/back.gif</filename>
+    <filename>img/default/buttons/comments.gif</filename>
+    <filename>img/default/buttons/ffward.gif</filename>
+    <filename>img/default/buttons/flip.gif</filename>
+    <filename>img/default/buttons/forward.gif</filename>
+    <filename>img/default/buttons/rwind.gif</filename>
+    <filename>img/default/buttons/toggle.gif</filename>
+  </files>
+        
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moveFont" type="text" default="#666" label="Move Font Color" description="" />
+				<field name="commentFont" type="text" default="#888" label="Comment Font Color" description="" />
+				<field name="style" type="radio" default="png" label="Style:" description="default | kent | png | zurich">
+					<option value="default">default</option>
+					<option value="png">png</option>
+					<option value="zurich">zurich</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

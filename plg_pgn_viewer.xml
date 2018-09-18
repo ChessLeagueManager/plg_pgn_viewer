@@ -2,11 +2,11 @@
 <extension version="2.5" method="upgrade" type="plugin" group="content">
 	<name>plg_pgn_viewer</name>
 	<author>T Römer / F Schäfer</author>
-	<creationDate>2006 - 2015</creationDate>
+	<creationDate>2006 - 2018</creationDate>
 	<copyright>(C) 2015 Toomas Römer</copyright>
 	<license>APL http://www.apache.org/licenses/LICENSE-2.0</license>
 	<authorUrl>http://pgnview.edicypages.com</authorUrl>
-	<version>0.9</version>
+	<version>0.9.1</version>
 	<description>Dieses Plugin erlaubt es PGN Dateien, über ein interactives Brett, direkt in deinen Beiträgen auszugeben. Dafür muss die PGN, ohne jede Änderung, innerhalb von {pgn} und {end-pgn} eingefügt werden. Das interaktive Brett ist unter der Apache-Lizenz 2.0 von Toomas Römer ( http://pgnview.edicypages.com ) veröffentlicht worden. Achtung: Das Plugin muss nach der Installation manuell aktiviert werden.</description>   	
 
   <files>
